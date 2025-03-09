@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Client</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-black text-white font-sans">
+  <!-- Header -->
+  <header class="flex items-center justify-between p-4 bg-black">
+    <div class="flex items-center space-x-2">
+      <img src="path_to_solar_client_logo.png" alt="Solar Client Logo" class="h-8 w-8">
+      <span class="font-bold">SOLAR CLIENT</span>
+    </div>
+    <div class="flex items-center space-x-4">
+      <span>Solar Client</span>
+      <span>solarmc.com</span>
+      <i class="fas fa-bars cursor-pointer" onclick="toggleSidebar()"></i>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="fixed top-0 right-0 w-64 h-full bg-gray-800 text-white sidebar">
+    <div class="p-4">
+      <h2 class="text-2xl font-bold">Menu</h2>
+      <ul class="mt-4 space-y-2">
+        <li>
+          <a href="download.html" class="block px-4 py-2 hover:bg-gray-700">Download</a>
+        </li>
+        <li>
+          <a href="mailto:solaroffical1230@gmail.com" class="block px-4 py-2 hover:bg-gray-700">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="p-4">
+    <section class="text-center">
+      <h1 class="text-4xl font-bold">THE BEST</h1>
+      <h1 class="text-4xl font-bold">MINECRAFT</h1>
+      <h1 class="text-4xl font-bold text-primary">HOSTING</h1>
+
+      <ul class="list-none mt-4 space-y-2">
+        <li class="flex items-center justify-center space-x-2">
+          <i class="fas fa-check text-accent"></i>
+          <span>Host your own server for FREE</span>
+        </li>
+        <li class="flex items-center justify-center space-x-2">
+          <i class="fas fa-check text-accent"></i>
+          <span>99.9% Uptime Guarantee</span>
+        </li>
+        <li class="flex items-center justify-center space-x-2">
+          <i class="fas fa-check text-accent"></i>
+          <span>Instant Setup</span>
+        </li>
+        <li class="flex items-center justify-center space-x-2">
+          <i class="fas fa-check text-accent"></i>
+          <span>Enterprise-Grade DDoS Protection</span>
+        </li>
+      </ul>
+
+      <div class="mt-4 space-x-2">
+        <a href="https://discord.gg/fnXBQC8R" target="_blank">
+          <button class="bg-primary text-white px-4 py-2 rounded">GET HOSTING</button>
+        </a>
+        <a href="https://note-pad20.tiiny.site/" target="_blank">
+          <button class="bg-gray-500 text-white px-4 py-2 rounded">NOTEPAD</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Hosting Features Section -->
+    <section class="mt-8 space-y-8">
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-server text-primary text-2xl"></i>
+        <div>
+          <h2 class="text-xl font-bold">99.9% Uptime</h2>
+          <p>Enjoy uninterrupted gameplay with our high-performance servers.</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-bolt text-primary text-2xl"></i>
+        <div>
+          <h2 class="text-xl font-bold">Instant Setup</h2>
+          <p>Start your server in minutes with our automatic setup process.</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-4">
+        <i class="fas fa-shield-alt text-primary text-2xl"></i>
+        <div>
+          <h2 class="text-xl font-bold">DDoS Protection</h2>
+          <p>Advanced security ensures your server stays safe from attacks.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="p-4 bg-black text-center">
+    <a href="https://discord.gg/fnXBQC8R" target="_blank">
+      <button class="bg-primary text-white px-4 py-2 rounded">DISCORD</button>
+    </a>
+  </footer>
+</body>
+</html>

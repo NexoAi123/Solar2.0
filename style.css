@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #1E3A8A; /* Blue color */
+  --accent-color: #ADD8E6; /* Light blue color */
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.sidebar {
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
